@@ -1,4 +1,4 @@
-Pikud Haoref API
+pikud-haoref-api
 ===================
 [![npm version](https://badge.fury.io/js/pikud-haoref-api.svg)](https://badge.fury.io/js/pikud-haoref-api)
 
