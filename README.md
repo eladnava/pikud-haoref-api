@@ -9,7 +9,7 @@ Usage
 
 First, install the package using npm:
 ```shell
-$ npm install pikud-haoref-api
+$ npm install pikud-haoref-api --save
 ```
 
 Then, use the following code to poll for the currently-active rocket alert zones:
