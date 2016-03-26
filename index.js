@@ -1,31 +1,28 @@
 var request = require('request');
 var config = require('./config');
 
-exports.getActiveRocketAlertZones = function (callback) {
-    // Sleazy workaround for closures in callbacks
-    var that = this;
-    
+exports.getActiveRocketAlertZones = function(callback) {
     // Execute HTTP request to HFC API and get current alerts as JS object
-    that.getHFCAlertsJSON(function (err, json) {
+    getHFCAlertsJSON(function(err, json) {
         // JSON retrieval failed?
         if (err) {
             return callback(err);
         }
-        
+
         // Extract alert zones from HFC's strange JSON structure
-        that.extractAlertZonesFromJSON(json, function (err, alertZones) {
+        extractAlertZonesFromJSON(json, function(err, alertZones) {
             // Alert extraction failed?
             if (err) {
                 return callback(err);
             }
-            
+
             // Call the callback with current rocket alert zones
             callback(null, alertZones);
         });
     });
 }
 
-this.getHFCAlertsJSON = function (callback) {   
+function getHFCAlertsJSON(callback) {
     // Prepare HFC API request options
     var options = {
         url: config.hfc.alerts.api,
@@ -33,17 +30,17 @@ this.getHFCAlertsJSON = function (callback) {
     };
 
     // Execute request
-    request(options, function (err, res, buffer) {
+    request(options, function(err, res, buffer) {
         // Request failed? 
         if (err) {
             return callback(new Error('Failed to retrieve alerts from HFC API: ' + err));
         }
-        
+
         // Weird redirect?
         if (buffer.toString('utf8').indexOf('/errorpage_adom/') != -1) {
             return callback(new Error('The HFC API returned a temporary error page.'));
         }
-        
+
         // Detect encoding (it varies between UTF-16-LE and UTF-8)
         var encoding = 'utf16le';
 
@@ -75,7 +72,7 @@ this.getHFCAlertsJSON = function (callback) {
         if (body.trim() == '') {
             return callback(null, {});
         }
-    
+
         // Prepare JSON object
         var json;
 
@@ -87,21 +84,21 @@ this.getHFCAlertsJSON = function (callback) {
             // Stop execution
             return callback(new Error('Failed to parse HFC JSON: ' + err));
         }
-        
+
         // Call the callback with parsed JSON
         callback(null, json);
     });
 }
 
-this.extractAlertZonesFromJSON = function (json, callback) {
+function extractAlertZonesFromJSON(json, callback) {
     // Alert zones array
     var alertZones = [];
-    
+
     // No "data" array means there are no active alerts
     if (!json.data) {
         return callback(null, alertZones);
     }
-    
+
     // Traverse zones in "data" array
     for (var zones of json.data) {
         // Empty?
@@ -114,7 +111,7 @@ this.extractAlertZonesFromJSON = function (json, callback) {
 
         // Loop over zone(s)
         for (var zone of zones) {
-            
+
             // Skip empty zone elements
             if (!zone) {
                 continue;
