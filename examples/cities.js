@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 // Replace with require('pikud-haoref-api') if the package resides in node_modules
 var pikudHaoref = require('../index');
 
@@ -13,6 +15,9 @@ pikudHaoref.getCityMetadata(function (err, cities) {
         return console.error(err);
     }
 
-    // Success, output metadata to console
-    console.log(JSON.stringify(cities));
+    // Write cities.json file to disc
+    fs.writeFileSync('cities.json', JSON.stringify(cities, null, 2), 'utf8');
+
+    // Output success
+    console.log('Wrote cities.json successfully');
 }, options);
