@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+  <meta charset="utf-8">
+  <title>Simple Markers</title>
+  <style>
+    /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+    #map {
+      height: 100%;
+    }
+
+    /* Optional: Makes the sample page fill the window. */
+
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <script>
+
+    function initMap() {
+      // Center of Israel coordinates
+      var myLatLng = { lat: 32.067232, lng: 34.801291 };
+
+      // Insert pikudHaoref.getCityMetadata() output here
+      var cities = [];
+
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 6,
+        center: myLatLng
+      });
+
+      for (var city of cities) {
+        var infowindow = new google.maps.InfoWindow({
+          content: city.name
+        });
+
+        var marker = new google.maps.Marker({
+          position: { lat: city.lat, lng: city.lng },
+          map: map,
+          title: city.name
+        });
+
+        google.maps.event.addListener(marker, 'click', (function (mm, tt) {
+          return function () {
+            infowindow.setContent(tt);
+            infowindow.open(map, mm);
+          }
+        })(marker, city.name));
+      }
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap">
+  </script>
+</body>
+</html>
