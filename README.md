@@ -1,7 +1,7 @@
 pikud-haoref-api
 ===================
 
-> ### NO LONGER ACTIVE
+### NO LONGER ACTIVE
 <b>Warning:</b> This API is no longer active due to a Home Front Command decision to block access to the alert file for all third party alert applications.
 
 -----------------------------------
