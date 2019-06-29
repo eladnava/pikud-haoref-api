@@ -6,6 +6,11 @@ var interval = 5000;
 
 // Define polling function
 var poll = function() {
+    // Optional Israeli proxy if running outside Israeli borders
+    var options = {
+        proxy: 'http://user:pass@hostname:port/'
+    };
+
     // Get currently active rocket alert zones as an array of zone codes
     // Example response: ["גולן 1", "חיפה 75", "שפלה 182"]
     pikudHaoref.getActiveRocketAlertZones(function(err, alertZones) {
@@ -25,7 +30,7 @@ var poll = function() {
 
         // Line break for readability
         console.log();
-    });
+    }, options);
 }
 
 // Start polling for active alert zones
