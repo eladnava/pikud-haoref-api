@@ -4,6 +4,8 @@ pikud-haoref-api
 
 A Node.js wrapper library for Pikud Haoref's unofficial rocket alert API. It allows you to easily query for the active rocket alert zones in Israel.
 
+**Note:** This API is only accessible from within Israel. Either run the script on an Israeli machine, or use a proxy.
+
 Usage
 ---
 
