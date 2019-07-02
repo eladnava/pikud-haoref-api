@@ -11,27 +11,27 @@ var poll = function() {
         proxy: 'http://user:pass@hostname:port/'
     };
 
-    // Get currently active rocket alert zones as an array of zone codes
-    // Example response: ["גולן 1", "חיפה 75", "שפלה 182"]
-    pikudHaoref.getActiveRocketAlertZones(function(err, alertZones) {
+    // Get currently active rocket alert cities as an array
+    // Example response: ["תל אביב - מזרח", "חיפה - כרמל ועיר תחתית", "עין גדי"]
+    pikudHaoref.getActiveRocketAlertCities(function(err, alertCities) {
         // Schedule polling in X millis
         setTimeout(poll, interval);
 
         // Log errors
         if (err) {
-            return console.log('Retrieving active rocket alert zones failed: ', err);
+            return console.log('Retrieving active rocket alert cities failed: ', err);
         }
 
-        // Alert zones header
-        console.log('Currently active rocket alert zones:');
+        // Alert cities header
+        console.log('Currently active rocket alert cities:');
 
-        // Log the alert zones (if any)
-        console.log(alertZones);
+        // Log the alert cities (if any)
+        console.log(alertCities);
 
         // Line break for readability
         console.log();
     }, options);
 }
 
-// Start polling for active alert zones
+// Start polling for active alert cities
 poll();

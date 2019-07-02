@@ -1,2 +1,2 @@
 exports.getCityMetadata = require('./lib/cities');
-exports.getActiveRocketAlertZones = require('./lib/alerts');
+exports.getActiveRocketAlertCities = require('./lib/alerts');
