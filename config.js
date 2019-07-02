@@ -6,8 +6,8 @@ module.exports = {
         },
         // URLs to Pikud Haoref's official homepages in Hebrew and English which contain city metadata
         website: {
-            hebUrl: 'http://www.oref.org.il/11093-he/Pakar.aspx',
-            engUrl: 'http://www.oref.org.il/894-en/Pakar.aspx'
+            hebUrl: 'https://www.oref.org.il/11093-he/Pakar.aspx',
+            engUrl: 'https://www.oref.org.il/894-en/Pakar.aspx'
         }
     },
     israel: {
