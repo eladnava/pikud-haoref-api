@@ -12,6 +12,18 @@ module.exports = [
     "value": "all"
   },
   {
+    "name": "אבו גוש",
+    "name_en": "Abu Ghosh",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
+    "time": "דקה",
+    "time_en": "A minute",
+    "countdown": 60,
+    "lat": 31.806293,
+    "lng": 35.109193,
+    "value": "אבו גוש"
+  },
+  {
     "name": "אבו סנאן",
     "name_en": "Abu Snan",
     "zone": "גליל עליון",
@@ -24,7 +36,7 @@ module.exports = [
     "value": "אבו סנאן"
   },
   {
-    "name": "אבו קרינאת והפזורה",
+    "name": "אבו קרינאת",
     "name_en": "Abu Qrenat",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -33,22 +45,10 @@ module.exports = [
     "countdown": 60,
     "lat": 31.103115,
     "lng": 34.952003,
-    "value": "אבו קרינאת והפזורה"
+    "value": "אבו קרינאת"
   },
   {
-    "name": "אבו-גוש",
-    "name_en": "Abu Ghosh",
-    "zone": "בית שמש",
-    "zone_en": "Beit Shemesh",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 31.806293,
-    "lng": 35.109193,
-    "value": "אבו-גוש"
-  },
-  {
-    "name": "אבו-תלול והפזורה",
+    "name": "אבו-תלול",
     "name_en": "Abu Talul And The Bedouin Diaspora",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -57,7 +57,7 @@ module.exports = [
     "countdown": 60,
     "lat": 31.142612,
     "lng": 34.913514,
-    "value": "אבו-תלול והפזורה"
+    "value": "אבו-תלול"
   },
   {
     "name": "אבטליון",
@@ -110,8 +110,8 @@ module.exports = [
   {
     "name": "אביחיל",
     "name_en": "Avihail",
-    "zone": "שרון",
-    "zone_en": "Sharon",
+    "zone": "חפר",
+    "zone_en": "Hefer",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -302,8 +302,8 @@ module.exports = [
   {
     "name": "אוהלו ובית ירח",
     "name_en": "Ohalo And Beit Yerach",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -348,7 +348,7 @@ module.exports = [
     "value": "אום אל-גנם"
   },
   {
-    "name": "אום בטין והפזורה",
+    "name": "אום בטין",
     "name_en": "Umm Batin And The Bedouin Diaspora",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -357,14 +357,14 @@ module.exports = [
     "countdown": 60,
     "lat": 31.2767437,
     "lng": 34.8829215,
-    "value": "אום בטין והפזורה",
+    "value": "אום בטין",
     "shelters": 4
   },
   {
     "name": "אופקים",
     "name_en": "Ofakim",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -459,8 +459,8 @@ module.exports = [
   {
     "name": "אורים",
     "name_en": "Urim",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -483,8 +483,8 @@ module.exports = [
   {
     "name": "אורנית",
     "name_en": "Oranit",
-    "zone": "שרון",
-    "zone_en": "Sharon",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -603,8 +603,8 @@ module.exports = [
   {
     "name": "אזור תעשייה הדרומי אשקלון",
     "name_en": "Ashkelon Southern Industrial Zone",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -734,7 +734,7 @@ module.exports = [
   },
   {
     "name": "אזור תעשייה נשר - רמלה",
-    "name_en": "Nesher Industrial Zone",
+    "name_en": "Nesher Industrial Zone (Ramla)",
     "zone": "השפלה",
     "zone_en": "Shfela",
     "time": "דקה",
@@ -807,8 +807,8 @@ module.exports = [
   {
     "name": "אזור תעשייה צמח",
     "name_en": "Tzemach Industrial Zone",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -819,8 +819,8 @@ module.exports = [
   {
     "name": "אזור תעשייה צפוני אשקלון",
     "name_en": "Ashkelon Northern Industrial Zone",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -831,8 +831,8 @@ module.exports = [
   {
     "name": "אזור תעשייה קדמת גליל",
     "name_en": "Kidmat Galil Industrial Zone",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1058,18 +1058,6 @@ module.exports = [
     "value": "איבטין"
   },
   {
-    "name": "איבי נחל - מעלה עמוס",
-    "name_en": "איבי נחל - מעלה עמוס",
-    "zone": "יהודה",
-    "zone_en": "Judea",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 31.60655,
-    "lng": 35.220647,
-    "value": "איבי נחל - מעלה עמוס"
-  },
-  {
     "name": "אייל",
     "name_en": "Eyal",
     "zone": "חפר",
@@ -1120,8 +1108,8 @@ module.exports = [
   {
     "name": "אילניה",
     "name_en": "Ilania",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1252,8 +1240,8 @@ module.exports = [
   {
     "name": "אלומות",
     "name_en": "Alumot",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1276,8 +1264,8 @@ module.exports = [
   {
     "name": "אלון הגליל",
     "name_en": "Alon HaGalil",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1348,8 +1336,8 @@ module.exports = [
   {
     "name": "אלונים",
     "name_en": "Alonim",
-    "zone": "הקריות",
-    "zone_en": "Hakrayot",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1372,8 +1360,8 @@ module.exports = [
   {
     "name": "אליאב",
     "name_en": "Eliav",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1456,8 +1444,8 @@ module.exports = [
   {
     "name": "אלמגור",
     "name_en": "Almagor",
-    "zone": "גליל עליון",
-    "zone_en": "Upper Galilee",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -1588,8 +1576,8 @@ module.exports = [
   {
     "name": "אמציה",
     "name_en": "Amatzia",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1636,8 +1624,8 @@ module.exports = [
   {
     "name": "אפיקים",
     "name_en": "Afikim",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1648,8 +1636,8 @@ module.exports = [
   {
     "name": "אפק",
     "name_en": "Afek",
-    "zone": "הקריות",
-    "zone_en": "Hakrayot",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1734,8 +1722,8 @@ module.exports = [
   {
     "name": "אשבול",
     "name_en": "Eshbol",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -1818,8 +1806,8 @@ module.exports = [
   {
     "name": "אשדות יעקב איחוד",
     "name_en": "Ashdod Yacov Ichud",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1830,8 +1818,8 @@ module.exports = [
   {
     "name": "אשדות יעקב מאוחד",
     "name_en": "Ashdot Yaakov Meuhad",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1854,8 +1842,8 @@ module.exports = [
   {
     "name": "אשכולות",
     "name_en": "Eshkolot",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -1866,8 +1854,8 @@ module.exports = [
   {
     "name": "אשל הנשיא",
     "name_en": "Eshel HaNassi",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -1890,8 +1878,8 @@ module.exports = [
   {
     "name": "אשקלון",
     "name_en": "Ashkelon",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -1924,18 +1912,6 @@ module.exports = [
     "lat": 31.780385,
     "lng": 35.010102,
     "value": "אשתאול"
-  },
-  {
-    "name": "אשתמוע - שמעה",
-    "name_en": "אשתמוע - שמעה",
-    "zone": "יהודה",
-    "zone_en": "Judea",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 31.387342,
-    "lng": 35.012699,
-    "value": "אשתמוע - שמעה"
   },
   {
     "name": "אתר ההנצחה גולני",
@@ -1976,8 +1952,8 @@ module.exports = [
   {
     "name": "באר גנים",
     "name_en": "Be'er Ganim",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -2170,8 +2146,8 @@ module.exports = [
   {
     "name": "בטחה",
     "name_en": "Bitha",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -2204,7 +2180,7 @@ module.exports = [
     "value": "ביר אלמכסור"
   },
   {
-    "name": "ביר הדאג' והפזורה",
+    "name": "ביר הדאג'",
     "name_en": "Bir Hadaj And The Bedouin Diaspora",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -2213,7 +2189,7 @@ module.exports = [
     "countdown": 60,
     "lat": 31.02316,
     "lng": 34.709138,
-    "value": "ביר הדאג' והפזורה"
+    "value": "ביר הדאג'"
   },
   {
     "name": "ביריה",
@@ -2350,8 +2326,8 @@ module.exports = [
   {
     "name": "בית הגדי",
     "name_en": "Beit HaGdi",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -2422,8 +2398,8 @@ module.exports = [
   {
     "name": "בית זייד",
     "name_en": "Beit Zaid",
-    "zone": "הקריות",
-    "zone_en": "Hakrayot",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -2446,8 +2422,8 @@ module.exports = [
   {
     "name": "בית זרע",
     "name_en": "Beit Zera",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -2686,8 +2662,8 @@ module.exports = [
   {
     "name": "בית סוהר מגידו",
     "name_en": "Megiddo Prison",
-    "zone": "ואדי ערה",
-    "zone_en": "Wadi Ara",
+    "zone": "מנשה",
+    "zone_en": "Menashe",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -2830,8 +2806,8 @@ module.exports = [
   {
     "name": "בית קשת",
     "name_en": "Beit Keshet",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -2890,8 +2866,8 @@ module.exports = [
   {
     "name": "בית שקמה",
     "name_en": "Beit Shikma",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -2986,8 +2962,8 @@ module.exports = [
   {
     "name": "בני דקלים",
     "name_en": "Bnei Dkalim",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -2998,8 +2974,8 @@ module.exports = [
   {
     "name": "בני דרום",
     "name_en": "Bnei Darom",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "דרום השפלה",
+    "zone_en": "Southern Shfela",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -3226,8 +3202,8 @@ module.exports = [
   {
     "name": "ברור חיל",
     "name_en": "Bror Hayil",
-    "zone": "עוטף עזה",
-    "zone_en": "Gaza Containment Zone",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -3239,8 +3215,8 @@ module.exports = [
   {
     "name": "ברוש",
     "name_en": "Brosh",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -3264,8 +3240,8 @@ module.exports = [
   {
     "name": "ברכיה",
     "name_en": "Berekhya",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -3325,8 +3301,8 @@ module.exports = [
   {
     "name": "בת הדר",
     "name_en": "Bat Hadar",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -3360,6 +3336,18 @@ module.exports = [
     "value": "בת חפר"
   },
   {
+    "name": "בת ים",
+    "name_en": "Bat Yam",
+    "zone": "דן",
+    "zone_en": "Dan",
+    "time": "דקה",
+    "time_en": "A minute",
+    "countdown": 60,
+    "lat": 32.013186,
+    "lng": 34.748019,
+    "value": "בת ים"
+  },
+  {
     "name": "בת עין",
     "name_en": "Bat Ayin",
     "zone": "יהודה",
@@ -3382,18 +3370,6 @@ module.exports = [
     "lat": 32.600335,
     "lng": 35.003837,
     "value": "בת שלמה"
-  },
-  {
-    "name": "בת-ים",
-    "name_en": "Bat Yam",
-    "zone": "דן",
-    "zone_en": "Dan",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.013186,
-    "lng": 34.748019,
-    "value": "בת-ים"
   },
   {
     "name": "בתי מלון ים המלח",
@@ -3457,7 +3433,7 @@ module.exports = [
   },
   {
     "name": "ג'ש - גוש חלב",
-    "name_en": "Jish",
+    "name_en": "Jish (Gush Halav)",
     "zone": "קו העימות",
     "zone_en": "Confrontation Line",
     "time": "מיידי",
@@ -3506,8 +3482,8 @@ module.exports = [
   {
     "name": "גאליה",
     "name_en": "Ge'alya",
-    "zone": "דרום השפלה",
-    "zone_en": "Southern Shfela",
+    "zone": "השפלה",
+    "zone_en": "Shfela",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -3518,8 +3494,8 @@ module.exports = [
   {
     "name": "גבולות",
     "name_en": "Gvulot",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -3554,8 +3530,8 @@ module.exports = [
   {
     "name": "גבע בנימין",
     "name_en": "Geva Binyamin",
-    "zone": "בקעה",
-    "zone_en": "Syro-African Rift",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -3614,8 +3590,8 @@ module.exports = [
   {
     "name": "גבעת אבני",
     "name_en": "Giv'at Avni",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -3709,7 +3685,7 @@ module.exports = [
   },
   {
     "name": "גבעת חיים איחוד",
-    "name_en": "Givat Haim",
+    "name_en": "Givat Haim (Ihud)",
     "zone": "חפר",
     "zone_en": "Hefer",
     "time": "דקה",
@@ -3721,7 +3697,7 @@ module.exports = [
   },
   {
     "name": "גבעת חיים מאוחד",
-    "name_en": "Givat Haim",
+    "name_en": "Givat Haim (Meuhad)",
     "zone": "חפר",
     "zone_en": "Hefer",
     "time": "דקה",
@@ -3758,8 +3734,8 @@ module.exports = [
   {
     "name": "גבעת ישעיהו",
     "name_en": "Givat Ishayahu",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -3806,8 +3782,8 @@ module.exports = [
   {
     "name": "גבעת עוז",
     "name_en": "Givat Oz",
-    "zone": "ואדי ערה",
-    "zone_en": "Wadi Ara",
+    "zone": "מנשה",
+    "zone_en": "Menashe",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -3948,18 +3924,6 @@ module.exports = [
     "value": "גורן"
   },
   {
-    "name": "גורנות הגליל",
-    "name_en": "Gornot HaGalil",
-    "zone": "קו העימות",
-    "zone_en": "Confrontation Line",
-    "time": "מיידי",
-    "time_en": "Immediately",
-    "countdown": 0,
-    "lat": 33.059286,
-    "lng": 35.24967,
-    "value": "גורנות הגליל"
-  },
-  {
     "name": "גזית",
     "name_en": "Gazit",
     "zone": "תבור",
@@ -3986,8 +3950,8 @@ module.exports = [
   {
     "name": "גיאה",
     "name_en": "Ge'a",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -3998,8 +3962,8 @@ module.exports = [
   {
     "name": "גיבתון",
     "name_en": "Gibton",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "דרום השפלה",
+    "zone_en": "Southern Shfela",
     "time": "דקה וחצי",
     "time_en": "A minute and a half",
     "countdown": 90,
@@ -4022,8 +3986,8 @@ module.exports = [
   {
     "name": "גילת",
     "name_en": "Gilat",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -4105,7 +4069,7 @@ module.exports = [
   },
   {
     "name": "גלעד - אבן יצחק",
-    "name_en": "Gal'ed",
+    "name_en": "Gal'ed (Even Itzhak)",
     "zone": "מנשה",
     "zone_en": "Menashe",
     "time": "דקה",
@@ -4130,8 +4094,8 @@ module.exports = [
   {
     "name": "גן הדרום",
     "name_en": "Gan HaDarom",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "דרום השפלה",
+    "zone_en": "Southern Shfela",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -4214,8 +4178,8 @@ module.exports = [
   {
     "name": "גן שלמה",
     "name_en": "Gan Shlomo",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "דרום השפלה",
+    "zone_en": "Southern Shfela",
     "time": "דקה וחצי",
     "time_en": "A minute and a half",
     "countdown": 90,
@@ -4286,8 +4250,8 @@ module.exports = [
   {
     "name": "גני יוחנן",
     "name_en": "Ganei Yochanan",
-    "zone": "דרום השפלה",
-    "zone_en": "Southern Shfela",
+    "zone": "השפלה",
+    "zone_en": "Shfela",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -4358,8 +4322,8 @@ module.exports = [
   {
     "name": "גפן",
     "name_en": "Geffen",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -4378,6 +4342,18 @@ module.exports = [
     "lat": 29.941617,
     "lng": 35.064691,
     "value": "גרופית"
+  },
+  {
+    "name": "גרנות הגליל",
+    "name_en": "Gornot HaGalil",
+    "zone": "קו העימות",
+    "zone_en": "Confrontation Line",
+    "time": "מיידי",
+    "time_en": "Immediately",
+    "countdown": 0,
+    "lat": 33.059286,
+    "lng": 35.24967,
+    "value": "גרנות הגליל"
   },
   {
     "name": "גשור",
@@ -4478,8 +4454,8 @@ module.exports = [
   {
     "name": "דגניה א",
     "name_en": "Degania Alef",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -4490,8 +4466,8 @@ module.exports = [
   {
     "name": "דגניה ב",
     "name_en": "Degania Bet",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -4538,8 +4514,8 @@ module.exports = [
   {
     "name": "דורות",
     "name_en": "Dorot",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -4692,7 +4668,7 @@ module.exports = [
     "value": "דקל"
   },
   {
-    "name": "דריג'את, תל ערד ואל פורה",
+    "name": "דריג'את, תל ערד ואל פורעה",
     "name_en": "Darijat, Tel Arad And El Pura",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -4701,13 +4677,13 @@ module.exports = [
     "countdown": 60,
     "lat": 31.301885,
     "lng": 35.076793,
-    "value": "דריג'את, תל ערד ואל פורה"
+    "value": "דריג'את, תל ערד ואל פורעה"
   },
   {
     "name": "האון",
     "name_en": "Ha'On",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -4766,8 +4742,8 @@ module.exports = [
   {
     "name": "הודיה",
     "name_en": "Hodaya",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -4779,8 +4755,8 @@ module.exports = [
   {
     "name": "הודיות",
     "name_en": "Hodayot",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -4803,8 +4779,8 @@ module.exports = [
   {
     "name": "הזורעים",
     "name_en": "HaZor'im",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -4851,8 +4827,8 @@ module.exports = [
   {
     "name": "המכללה האקדמית כנרת",
     "name_en": "Kinneret Academic College",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -5007,8 +4983,8 @@ module.exports = [
   {
     "name": "הרדוף",
     "name_en": "Harduf",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -5019,8 +4995,8 @@ module.exports = [
   {
     "name": "הרצליה - מרכז וגליל ים",
     "name_en": "Herzeliya - Center And Glil Yam",
-    "zone": "דן",
-    "zone_en": "Dan",
+    "zone": "שרון",
+    "zone_en": "Sharon",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -5031,8 +5007,8 @@ module.exports = [
   {
     "name": "הרצליה - פיתוח",
     "name_en": "Herzeliya - Pituach",
-    "zone": "דן",
-    "zone_en": "Dan",
+    "zone": "שרון",
+    "zone_en": "Sharon",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -5055,8 +5031,8 @@ module.exports = [
   {
     "name": "ואדי אל חמאם",
     "name_en": "Wadi Hamam",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "תבור",
+    "zone_en": "Tavor",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -5067,8 +5043,8 @@ module.exports = [
   {
     "name": "ואדי אל נעם",
     "name_en": "Wadi Al-Na'am",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "דרום הנגב",
+    "zone_en": "Southern Negev",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -5164,8 +5140,8 @@ module.exports = [
   {
     "name": "זכריה",
     "name_en": "Zekharia",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -5212,8 +5188,8 @@ module.exports = [
   {
     "name": "זרועה",
     "name_en": "Zru'a",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -5453,8 +5429,8 @@ module.exports = [
   {
     "name": "חוות שיקמים",
     "name_en": "Havat Shikmim",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -5705,8 +5681,8 @@ module.exports = [
   {
     "name": "חלץ",
     "name_en": "Heletz",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -5801,8 +5777,8 @@ module.exports = [
   {
     "name": "חנתון",
     "name_en": "Hanaton",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -5981,8 +5957,8 @@ module.exports = [
   {
     "name": "חשמונאים",
     "name_en": "Hashmonaim",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -6040,7 +6016,7 @@ module.exports = [
   },
   {
     "name": "טייבה בגלבוע",
-    "name_en": "Taibe",
+    "name_en": "Taibe (Gilboa)",
     "zone": "עמק יזרעאל",
     "zone_en": "Jezreel Valley",
     "time": "דקה",
@@ -6172,7 +6148,7 @@ module.exports = [
   },
   {
     "name": "טמרה בגלבוע",
-    "name_en": "Tamra",
+    "name_en": "Tamra (Gilboa)",
     "zone": "עמק יזרעאל",
     "zone_en": "Jezreel Valley",
     "time": "דקה",
@@ -6209,8 +6185,8 @@ module.exports = [
   {
     "name": "יבול",
     "name_en": "Yevul",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -6219,22 +6195,10 @@ module.exports = [
     "value": "יבול"
   },
   {
-    "name": "יבור",
-    "name_en": "Yavor",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.897317,
-    "lng": 35.175737,
-    "value": "יבור"
-  },
-  {
     "name": "יבנאל",
     "name_en": "Yavne'el",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -6425,8 +6389,8 @@ module.exports = [
   {
     "name": "יושיביה",
     "name_en": "Yoshivia",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -6932,8 +6896,8 @@ module.exports = [
   {
     "name": "יתד",
     "name_en": "Yated",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -6980,8 +6944,8 @@ module.exports = [
   {
     "name": "כדורי",
     "name_en": "Kadoorie",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7004,8 +6968,8 @@ module.exports = [
   {
     "name": "כוכב השחר",
     "name_en": "Kokhav HaShahar",
-    "zone": "בקעה",
-    "zone_en": "Syro-African Rift",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7016,8 +6980,8 @@ module.exports = [
   {
     "name": "כוכב יאיר - צור יגאל",
     "name_en": "Kokhav Ya'ir - Tzur Yigal",
-    "zone": "חפר",
-    "zone_en": "Hefer",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7040,8 +7004,8 @@ module.exports = [
   {
     "name": "כוכב מיכאל",
     "name_en": "Kokhav Michael",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -7076,8 +7040,8 @@ module.exports = [
   {
     "name": "כחל",
     "name_en": "Kahal",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "גליל עליון",
+    "zone_en": "Upper Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7088,8 +7052,8 @@ module.exports = [
   {
     "name": "כינרת מושבה",
     "name_en": "Moshavat Kinneret",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7100,8 +7064,8 @@ module.exports = [
   {
     "name": "כינרת קבוצה",
     "name_en": "Kvutzat Kinneret",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7182,18 +7146,6 @@ module.exports = [
     "value": "כלנית"
   },
   {
-    "name": "כמאנה: הר כמון - מזרח",
-    "name_en": "כמאנה: הר כמון - מזרח",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.909722,
-    "lng": 35.347222,
-    "value": "כמאנה: הר כמון - מזרח"
-  },
-  {
     "name": "כמהין",
     "name_en": "Kmehin",
     "zone": "דרום הנגב",
@@ -7204,18 +7156,6 @@ module.exports = [
     "lat": 30.910327,
     "lng": 34.430725,
     "value": "כמהין"
-  },
-  {
-    "name": "כמון: הר כמון - מערב",
-    "name_en": "כמון: הר כמון - מערב",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.909722,
-    "lng": 35.347222,
-    "value": "כמון: הר כמון - מערב"
   },
   {
     "name": "כנות",
@@ -7242,7 +7182,7 @@ module.exports = [
     "value": "כנף"
   },
   {
-    "name": "כסייפה והפזורה",
+    "name": "כסייפה",
     "name_en": "Kuseife And The Bedouin Diaspora",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -7251,7 +7191,7 @@ module.exports = [
     "countdown": 60,
     "lat": 31.249246,
     "lng": 35.083681,
-    "value": "כסייפה והפזורה"
+    "value": "כסייפה"
   },
   {
     "name": "כסלון",
@@ -7496,8 +7436,8 @@ module.exports = [
   {
     "name": "כפר האורנים",
     "name_en": "Kfar HaOranim",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7532,8 +7472,8 @@ module.exports = [
   {
     "name": "כפר הנגיד",
     "name_en": "Kfar HaNagid",
-    "zone": "דרום השפלה",
-    "zone_en": "Southern Shfela",
+    "zone": "השפלה",
+    "zone_en": "Shfela",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7592,8 +7532,8 @@ module.exports = [
   {
     "name": "כפר הרי'ף וצומת ראם",
     "name_en": "Kfar HaRif And Re'em Junction",
-    "zone": "דרום השפלה",
-    "zone_en": "Southern Shfela",
+    "zone": "לכיש",
+    "zone_en": "Lakhish",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7640,8 +7580,8 @@ module.exports = [
   {
     "name": "כפר זוהרים",
     "name_en": "Kfar Zoharim",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -7741,8 +7681,8 @@ module.exports = [
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
-    "lat": 32.748016,
-    "lng": 35.171925,
+    "lat": 32.750389,
+    "lng": 35.184,
     "value": "כפר טבאש"
   },
   {
@@ -7832,8 +7772,8 @@ module.exports = [
   {
     "name": "כפר כמא",
     "name_en": "Kfar Kama",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7880,8 +7820,8 @@ module.exports = [
   {
     "name": "כפר מיסר",
     "name_en": "Kfar Meissar",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -7928,8 +7868,8 @@ module.exports = [
   {
     "name": "כפר מסריק",
     "name_en": "Kfar Masaryk",
-    "zone": "הקריות",
-    "zone_en": "Hakrayot",
+    "zone": "גליל עליון",
+    "zone_en": "Upper Galilee",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -8012,8 +7952,8 @@ module.exports = [
   {
     "name": "כפר סילבר",
     "name_en": "Kfar Silver",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -8086,8 +8026,8 @@ module.exports = [
   {
     "name": "כפר קאסם",
     "name_en": "Kfar Kassem",
-    "zone": "ירקון",
-    "zone_en": "Yarkon",
+    "zone": "שרון",
+    "zone_en": "Sharon",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8098,8 +8038,8 @@ module.exports = [
   {
     "name": "כפר קיש",
     "name_en": "Kfar Kish",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8170,8 +8110,8 @@ module.exports = [
   {
     "name": "כפר שמריהו",
     "name_en": "Kfar Shmaryahu",
-    "zone": "דן",
-    "zone_en": "Dan",
+    "zone": "שרון",
+    "zone_en": "Sharon",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8212,7 +8152,7 @@ module.exports = [
     "time_en": "A minute",
     "countdown": 60,
     "lat": 32.701338,
-    "lng": 35.11503500000001,
+    "lng": 35.115035,
     "value": "כפר תקווה"
   },
   {
@@ -8226,6 +8166,18 @@ module.exports = [
     "lat": 32.928271,
     "lng": 35.606331,
     "value": "כרכום"
+  },
+  {
+    "name": "כרכור",
+    "name_en": "Pardess Hanna-Karkur - Karkur",
+    "zone": "מנשה",
+    "zone_en": "Menashe",
+    "time": "דקה",
+    "time_en": "A minute",
+    "countdown": 60,
+    "lat": 32.4728028,
+    "lng": 34.9742001,
+    "value": "כרכור"
   },
   {
     "name": "כרם ביבנה",
@@ -8302,8 +8254,8 @@ module.exports = [
   {
     "name": "כרמי קטיף",
     "name_en": "Karmei Katif",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8340,8 +8292,8 @@ module.exports = [
   {
     "name": "כרמים",
     "name_en": "Kramim",
-    "zone": "דרום הנגב",
-    "zone_en": "Southern Negev",
+    "zone": "מרכז הנגב",
+    "zone_en": "Central Negev",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8388,8 +8340,8 @@ module.exports = [
   {
     "name": "לביא",
     "name_en": "Lavi",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8472,8 +8424,8 @@ module.exports = [
   {
     "name": "לוזית",
     "name_en": "Luzit",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -8578,16 +8530,16 @@ module.exports = [
     "value": "לפידות"
   },
   {
-    "name": "לקיה והפזורה",
+    "name": "לקיה",
     "name_en": "Lakiya And The Bedouin Diaspora",
     "zone": "מרכז הנגב",
     "zone_en": "Central Negev",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
+    "time": "45 שניות",
+    "time_en": "45 seconds",
+    "countdown": 45,
     "lat": 31.324884,
     "lng": 34.866219,
-    "value": "לקיה והפזורה"
+    "value": "לקיה"
   },
   {
     "name": "מאור",
@@ -8640,8 +8592,8 @@ module.exports = [
   {
     "name": "מבוא חורון",
     "name_en": "Mevo Horon",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8688,8 +8640,8 @@ module.exports = [
   {
     "name": "מבועים",
     "name_en": "Mabu'im",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -8700,8 +8652,8 @@ module.exports = [
   {
     "name": "מבטחים, עמיעוז, ישע",
     "name_en": "Mivtachim Amioz Yesha",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -8712,8 +8664,8 @@ module.exports = [
   {
     "name": "מבקיעים",
     "name_en": "Mavki'im",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -8826,8 +8778,8 @@ module.exports = [
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
-    "lat": 32.839494,
-    "lng": 35.499849,
+    "lat": 32.089866,
+    "lng": 35.342633,
     "value": "מגדלים"
   },
   {
@@ -8886,8 +8838,8 @@ module.exports = [
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
-    "lat": 31.9485955,
-    "lng": 35.1708741,
+    "lat": 0,
+    "lng": 0,
     "value": "מגרון"
   },
   {
@@ -8927,22 +8879,10 @@ module.exports = [
     "value": "מדרשת בן גוריון"
   },
   {
-    "name": "מודיעין",
-    "name_en": "Modi'in",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 31.890267,
-    "lng": 35.010397,
-    "value": "מודיעין"
-  },
-  {
     "name": "מודיעין - ישפרו סנטר",
     "name_en": "Modi'in - Ishpro Center",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "דרום הנגב",
+    "zone_en": "Southern Negev",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8953,8 +8893,8 @@ module.exports = [
   {
     "name": "מודיעין - ליגד סנטר",
     "name_en": "Modi'in - Ligad Center",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "דרום הנגב",
+    "zone_en": "Southern Negev",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8965,8 +8905,8 @@ module.exports = [
   {
     "name": "מודיעין עילית",
     "name_en": "Modi'in Illit",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -8975,7 +8915,19 @@ module.exports = [
     "value": "מודיעין עילית"
   },
   {
-    "name": "מולדה, אל-סייד והפזורה",
+    "name": "מודיעין-מכבים-רעות",
+    "name_en": "Modi'in",
+    "zone": "דרום הנגב",
+    "zone_en": "Southern Negev",
+    "time": "דקה",
+    "time_en": "A minute",
+    "countdown": 60,
+    "lat": 31.890267,
+    "lng": 35.010397,
+    "value": "מודיעין-מכבים-רעות"
+  },
+  {
+    "name": "מולדה, אל-סייד",
     "name_en": "Moladah, Al-Sayyid And The Bedouin Diaspora",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -8984,7 +8936,7 @@ module.exports = [
     "countdown": 60,
     "lat": 31.281719,
     "lng": 34.916298,
-    "value": "מולדה, אל-סייד והפזורה"
+    "value": "מולדה, אל-סייד"
   },
   {
     "name": "מולדת",
@@ -9009,54 +8961,6 @@ module.exports = [
     "lat": 32.531943,
     "lng": 35.102853,
     "value": "מועאוויה"
-  },
-  {
-    "name": "מועצה אזורית דרום השרון",
-    "name_en": "Drom HaSharon Regional Council",
-    "zone": "שרון",
-    "zone_en": "Sharon",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.133539,
-    "lng": 34.910989,
-    "value": "מועצה אזורית דרום השרון"
-  },
-  {
-    "name": "מועצה אזורית מבואות חרמון",
-    "name_en": "Mevuot Hermon Regional Council",
-    "zone": "קו העימות",
-    "zone_en": "Confrontation Line",
-    "time": "מיידי",
-    "time_en": "Immediately",
-    "countdown": 0,
-    "lat": 33.0614193,
-    "lng": 35.5548422,
-    "value": "מועצה אזורית מבואות חרמון"
-  },
-  {
-    "name": "מועצה אזורית מגילות",
-    "name_en": "Megilot Regional Council",
-    "zone": "בקעה",
-    "zone_en": "Syro-African Rift",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 31.7737352,
-    "lng": 35.5031106,
-    "value": "מועצה אזורית מגילות"
-  },
-  {
-    "name": "מועצה אזורית מרום הגליל",
-    "name_en": "Merom Golan Regional Council",
-    "zone": "גליל עליון",
-    "zone_en": "Upper Galilee",
-    "time": "30 שניות",
-    "time_en": "30 seconds",
-    "countdown": 30,
-    "lat": 32.9916546,
-    "lng": 35.4672368,
-    "value": "מועצה אזורית מרום הגליל"
   },
   {
     "name": "מוצא עילית",
@@ -9347,18 +9251,6 @@ module.exports = [
     "value": "מכמורת"
   },
   {
-    "name": "מכמנים: הר כמון - מזרח",
-    "name_en": "מכמנים: הר כמון - מזרח",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.909722,
-    "lng": 35.347222,
-    "value": "מכמנים: הר כמון - מזרח"
-  },
-  {
     "name": "מלונות ים המלח מרכז",
     "name_en": "Dead Sea Hotels - Center",
     "zone": "ים המלח",
@@ -9421,8 +9313,8 @@ module.exports = [
   {
     "name": "מנחמיה",
     "name_en": "Menahemia",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "בקעת בית שאן",
+    "zone_en": "Beit Sha'an Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -9481,8 +9373,8 @@ module.exports = [
   {
     "name": "מסדה",
     "name_en": "Masada",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -9517,8 +9409,8 @@ module.exports = [
   {
     "name": "מסלול",
     "name_en": "Maslul",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -9565,8 +9457,8 @@ module.exports = [
   {
     "name": "מעגלים גבעולים מלילות",
     "name_en": "Maagalim Givolim Melilot",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -9577,8 +9469,8 @@ module.exports = [
   {
     "name": "מעגן",
     "name_en": "Ma'agan",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -9685,8 +9577,8 @@ module.exports = [
   {
     "name": "מעלה אדומים",
     "name_en": "Ma'aleh Edomim",
-    "zone": "מעלה אדומים",
-    "zone_en": "Ma'ale Adumim",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -9769,8 +9661,8 @@ module.exports = [
   {
     "name": "מעלה מכמש",
     "name_en": "Ma'aleh Michmash",
-    "zone": "בקעה",
-    "zone_en": "Syro-African Rift",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -10347,8 +10239,8 @@ module.exports = [
   {
     "name": "משען",
     "name_en": "Mishan",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -10367,18 +10259,6 @@ module.exports = [
     "lat": 31.8232966,
     "lng": 34.6994269,
     "value": "מתחם בני דרום"
-  },
-  {
-    "name": "מתחם פי גלילות",
-    "name_en": "Gelilot - Pi Compound",
-    "zone": "דן",
-    "zone_en": "Dan",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.1384428,
-    "lng": 34.8045187,
-    "value": "מתחם פי גלילות"
   },
   {
     "name": "מתחם צומת שוקת",
@@ -10419,8 +10299,8 @@ module.exports = [
   {
     "name": "מתתיהו",
     "name_en": "Matityahu",
-    "zone": "השפלה",
-    "zone_en": "Shfela",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -10443,8 +10323,8 @@ module.exports = [
   {
     "name": "נאות הכיכר",
     "name_en": "Neot HaKikar",
-    "zone": "ערבה",
-    "zone_en": "Arabah",
+    "zone": "ים המלח",
+    "zone_en": "Dead Sea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -10491,8 +10371,8 @@ module.exports = [
   {
     "name": "נבטים",
     "name_en": "Nevatim",
-    "zone": "דרום הנגב",
-    "zone_en": "Southern Negev",
+    "zone": "מרכז הנגב",
+    "zone_en": "Central Negev",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -10508,8 +10388,8 @@ module.exports = [
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
-    "lat": 31.833024,
-    "lng": 35.180546,
+    "lat": 31.8329484,
+    "lng": 35.181075,
     "value": "נבי סמואל"
   },
   {
@@ -10599,8 +10479,8 @@ module.exports = [
   {
     "name": "נווה",
     "name_en": "Naveh",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -10754,7 +10634,7 @@ module.exports = [
   },
   {
     "name": "נווה מיכאל - רוגלית",
-    "name_en": "Neveh Michael",
+    "name_en": "Neveh Michael (Rogalit)",
     "zone": "בית שמש",
     "zone_en": "Beit Shemesh",
     "time": "דקה",
@@ -10899,8 +10779,8 @@ module.exports = [
   {
     "name": "נחושה",
     "name_en": "Nehusha",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -11043,8 +10923,8 @@ module.exports = [
   {
     "name": "נטע",
     "name_en": "Neta",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -11103,8 +10983,8 @@ module.exports = [
   {
     "name": "ניצן",
     "name_en": "Nitzan",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -11139,8 +11019,8 @@ module.exports = [
   {
     "name": "ניצנים",
     "name_en": "Nitzanim",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -11176,8 +11056,8 @@ module.exports = [
   {
     "name": "ניר גלים",
     "name_en": "Nir Galim",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "דרום השפלה",
+    "zone_en": "Southern Shfela",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -11224,8 +11104,8 @@ module.exports = [
   {
     "name": "ניר ישראל",
     "name_en": "Nir Israel",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -11236,8 +11116,8 @@ module.exports = [
   {
     "name": "ניר משה",
     "name_en": "Nir Moshe",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -11286,8 +11166,8 @@ module.exports = [
   {
     "name": "ניר עקיבא",
     "name_en": "Nir Akiva",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -11388,8 +11268,8 @@ module.exports = [
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
-    "lat": 31.9739,
-    "lng": 34.814382,
+    "lat": 32.3738421,
+    "lng": 34.8616891,
     "value": "נעורים"
   },
   {
@@ -11412,8 +11292,8 @@ module.exports = [
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
-    "lat": 32.0596125,
-    "lng": 34.7897434,
+    "lat": 32.060036,
+    "lng": 34.8152075,
     "value": "נעמה"
   },
   {
@@ -11496,8 +11376,8 @@ module.exports = [
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
-    "lat": 31.974868,
-    "lng": 34.773273,
+    "lat": 31.974886,
+    "lng": 34.773266,
     "value": "נריה"
   },
   {
@@ -11564,8 +11444,8 @@ module.exports = [
   {
     "name": "נתיבות",
     "name_en": "Netivot",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -11649,8 +11529,8 @@ module.exports = [
   {
     "name": "סואעד חמירה",
     "name_en": "Sawad Humeria",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -11769,8 +11649,8 @@ module.exports = [
   {
     "name": "סנסנה",
     "name_en": "Sansana",
-    "zone": "דרום הנגב",
-    "zone_en": "Southern Negev",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -11817,7 +11697,7 @@ module.exports = [
   },
   {
     "name": "ספסופה - כפר חושן",
-    "name_en": "Safsufa",
+    "name_en": "Safsufa (Kfar Hoshen)",
     "zone": "גליל עליון",
     "zone_en": "Upper Galilee",
     "time": "30 שניות",
@@ -11890,8 +11770,8 @@ module.exports = [
   {
     "name": "עגור",
     "name_en": "Agur",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -11902,8 +11782,8 @@ module.exports = [
   {
     "name": "עדי",
     "name_en": "Adi",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "עמק יזרעאל",
+    "zone_en": "Jezreel Valley",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -11914,8 +11794,8 @@ module.exports = [
   {
     "name": "עדי עד",
     "name_en": "Adei Ad",
-    "zone": "בקעה",
-    "zone_en": "Syro-African Rift",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -11950,8 +11830,8 @@ module.exports = [
   {
     "name": "עוזייר",
     "name_en": "Uzeir",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "תבור",
+    "zone_en": "Tavor",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -12190,8 +12070,8 @@ module.exports = [
   {
     "name": "עין גב",
     "name_en": "Ein Gev",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -12527,8 +12407,8 @@ module.exports = [
   {
     "name": "עין תמר",
     "name_en": "Ein Tamar",
-    "zone": "ערבה",
-    "zone_en": "Arabah",
+    "zone": "ים המלח",
+    "zone_en": "Dead Sea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -12804,7 +12684,7 @@ module.exports = [
   },
   {
     "name": "עצמון - שגב",
-    "name_en": "Atzmon",
+    "name_en": "Atzmon (Segev)",
     "zone": "גליל תחתון",
     "zone_en": "Lower Galilee",
     "time": "דקה",
@@ -12876,7 +12756,7 @@ module.exports = [
   },
   {
     "name": "ערוער - ערערה בנגב",
-    "name_en": "Aroer",
+    "name_en": "Aroer (Ar'ara BaNegev)",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
     "time": "דקה",
@@ -12985,8 +12865,8 @@ module.exports = [
   {
     "name": "פדויים",
     "name_en": "Pduim",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -13009,8 +12889,8 @@ module.exports = [
   {
     "name": "פוריה כפר עבודה",
     "name_en": "Poria - Kfar Avoda",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -13021,8 +12901,8 @@ module.exports = [
   {
     "name": "פוריה נווה עובד",
     "name_en": "Poria - Neve Oved",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -13033,8 +12913,8 @@ module.exports = [
   {
     "name": "פוריה עילית",
     "name_en": "Poria Illit",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -13069,8 +12949,8 @@ module.exports = [
   {
     "name": "פטיש",
     "name_en": "Patish",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -13115,18 +12995,6 @@ module.exports = [
     "value": "פני קדם"
   },
   {
-    "name": "פנימיית עין כרם",
-    "name_en": "Ein Kerem Boarding School",
-    "zone": "בית שמש",
-    "zone_en": "Beit Shemesh",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 31.7659985,
-    "lng": 35.1706486,
-    "value": "פנימיית עין כרם"
-  },
-  {
     "name": "פסגות",
     "name_en": "Psagot",
     "zone": "שומרון",
@@ -13153,8 +13021,8 @@ module.exports = [
   {
     "name": "פעמי תש'ז",
     "name_en": "Pa'amei Tashaz",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -13187,28 +13055,16 @@ module.exports = [
     "value": "פקיעין"
   },
   {
-    "name": "פרדס חנה-כרכור - כרכור",
-    "name_en": "Pardess Hanna-Karkur - Karkur",
-    "zone": "מנשה",
-    "zone_en": "Menashe",
-    "time": "דקה וחצי",
-    "time_en": "A minute and a half",
-    "countdown": 90,
-    "lat": 32.4728028,
-    "lng": 34.9742001,
-    "value": "פרדס חנה-כרכור - כרכור"
-  },
-  {
-    "name": "פרדס חנה-כרכור - פרדס חנה",
+    "name": "פרדס חנה",
     "name_en": "Pardess Hanna-Karkur - Pardes Hanna",
     "zone": "מנשה",
     "zone_en": "Menashe",
-    "time": "דקה וחצי",
-    "time_en": "A minute and a half",
-    "countdown": 90,
+    "time": "דקה",
+    "time_en": "A minute",
+    "countdown": 60,
     "lat": 32.4728028,
     "lng": 34.9742001,
-    "value": "פרדס חנה-כרכור - פרדס חנה"
+    "value": "פרדס חנה"
   },
   {
     "name": "פרדסיה",
@@ -13273,8 +13129,8 @@ module.exports = [
   {
     "name": "צאלים",
     "name_en": "Ze'elim",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -13310,8 +13166,8 @@ module.exports = [
   {
     "name": "צוחר ואוהד",
     "name_en": "Tzohar And Ohad",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -13440,6 +13296,18 @@ module.exports = [
     "value": "צורית גילון"
   },
   {
+    "name": "צורן",
+    "name_en": "Kadima-Tzoran - Kadima",
+    "zone": "חפר",
+    "zone_en": "Hefer",
+    "time": "דקה",
+    "time_en": "A minute",
+    "countdown": 60,
+    "lat": 32.277644,
+    "lng": 34.919297,
+    "value": "צורן"
+  },
+  {
     "name": "ציפורי",
     "name_en": "Tzippori",
     "zone": "תבור",
@@ -13478,8 +13346,8 @@ module.exports = [
   {
     "name": "צפרירים",
     "name_en": "Tzafririm",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -13549,28 +13417,16 @@ module.exports = [
     "value": "קדומים"
   },
   {
-    "name": "קדימה-צורן - צורן",
+    "name": "קדימה",
     "name_en": "Kadima-Tzoran - Tzoran",
     "zone": "חפר",
     "zone_en": "Hefer",
-    "time": "דקה וחצי",
-    "time_en": "A minute and a half",
-    "countdown": 90,
+    "time": "דקה",
+    "time_en": "A minute",
+    "countdown": 60,
     "lat": 32.277644,
     "lng": 34.919297,
-    "value": "קדימה-צורן - צורן"
-  },
-  {
-    "name": "קדימה-צורן - קדימה",
-    "name_en": "Kadima-Tzoran - Kadima",
-    "zone": "חפר",
-    "zone_en": "Hefer",
-    "time": "דקה וחצי",
-    "time_en": "A minute and a half",
-    "countdown": 90,
-    "lat": 32.277644,
-    "lng": 34.919297,
-    "value": "קדימה-צורן - קדימה"
+    "value": "קדימה"
   },
   {
     "name": "קדיתא",
@@ -13611,8 +13467,8 @@ module.exports = [
   {
     "name": "קדר",
     "name_en": "Kadarim",
-    "zone": "בקעת בית שאן",
-    "zone_en": "Beit Sha'an Valley",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -13635,8 +13491,8 @@ module.exports = [
   {
     "name": "קדרים",
     "name_en": "Kadarim",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "גליל עליון",
+    "zone_en": "Upper Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -13695,8 +13551,8 @@ module.exports = [
   {
     "name": "קידה",
     "name_en": "Kida",
-    "zone": "בקעה",
-    "zone_en": "Syro-African Rift",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -13719,8 +13575,8 @@ module.exports = [
   {
     "name": "קלחים",
     "name_en": "Klachim",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -13777,7 +13633,7 @@ module.exports = [
     "value": "קציר"
   },
   {
-    "name": "קצר-א-סיר והפזורה",
+    "name": "קצר-א-סיר",
     "name_en": "Qasr Al-Sir And The Bedouin Diaspora",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -13786,7 +13642,7 @@ module.exports = [
     "countdown": 60,
     "lat": 31.083329,
     "lng": 34.979579,
-    "value": "קצר-א-סיר והפזורה"
+    "value": "קצר-א-סיר"
   },
   {
     "name": "קצרין",
@@ -13971,8 +13827,8 @@ module.exports = [
   {
     "name": "קרית חינוך מרחבים",
     "name_en": "Merhavim Educational Campus",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -14140,8 +13996,8 @@ module.exports = [
   {
     "name": "רבדים",
     "name_en": "Revadim",
-    "zone": "דרום השפלה",
-    "zone_en": "Southern Shfela",
+    "zone": "לכיש",
+    "zone_en": "Lakhish",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -14199,7 +14055,7 @@ module.exports = [
     "value": "רגבים"
   },
   {
-    "name": "רהט והפזורה",
+    "name": "רהט",
     "name_en": "Rahat And The Bedouin Diaspora",
     "zone": "מרכז הנגב",
     "zone_en": "Central Negev",
@@ -14208,7 +14064,7 @@ module.exports = [
     "countdown": 45,
     "lat": 31.394548,
     "lng": 34.753934,
-    "value": "רהט והפזורה"
+    "value": "רהט"
   },
   {
     "name": "רווחה",
@@ -14237,8 +14093,8 @@ module.exports = [
   {
     "name": "רוחמה",
     "name_en": "Rochama",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -14250,8 +14106,8 @@ module.exports = [
   {
     "name": "רומאנה",
     "name_en": "Rumana",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "תבור",
+    "zone_en": "Tavor",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -14262,8 +14118,8 @@ module.exports = [
   {
     "name": "רומת אל הייב",
     "name_en": "Rumat Al-Heib",
-    "zone": "גליל תחתון",
-    "zone_en": "Lower Galilee",
+    "zone": "תבור",
+    "zone_en": "Tavor",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -14382,8 +14238,8 @@ module.exports = [
   {
     "name": "רימונים",
     "name_en": "Rimonim",
-    "zone": "בקעה",
-    "zone_en": "Syro-African Rift",
+    "zone": "שומרון",
+    "zone_en": "Samaria",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -14574,8 +14430,8 @@ module.exports = [
   {
     "name": "רמת השרון",
     "name_en": "Ramat HaSharon",
-    "zone": "דן",
-    "zone_en": "Dan",
+    "zone": "שרון",
+    "zone_en": "Sharon",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -14646,8 +14502,8 @@ module.exports = [
   {
     "name": "רנן",
     "name_en": "Renan",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -14766,8 +14622,8 @@ module.exports = [
   {
     "name": "שבי דרום",
     "name_en": "Shavei Darom",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -14813,7 +14669,7 @@ module.exports = [
     "value": "שבלי"
   },
   {
-    "name": "שגב שלום והפזורה",
+    "name": "שגב שלום",
     "name_en": "Segev Shalom And The Bedouin Diaspora",
     "zone": "דרום הנגב",
     "zone_en": "Southern Negev",
@@ -14822,7 +14678,7 @@ module.exports = [
     "countdown": 60,
     "lat": 31.198361,
     "lng": 34.839665,
-    "value": "שגב שלום והפזורה"
+    "value": "שגב שלום"
   },
   {
     "name": "שדה אברהם",
@@ -14839,8 +14695,8 @@ module.exports = [
   {
     "name": "שדה אילן",
     "name_en": "Sdeh Ilan",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -14983,8 +14839,8 @@ module.exports = [
   {
     "name": "שדה ניצן",
     "name_en": "Sdeh Nitzan",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -15007,8 +14863,8 @@ module.exports = [
   {
     "name": "שדה צבי",
     "name_en": "Sdeh Zvi",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -15031,8 +14887,8 @@ module.exports = [
   {
     "name": "שדות מיכה",
     "name_en": "Sdot Micha",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -15079,8 +14935,8 @@ module.exports = [
   {
     "name": "שדמות דבורה",
     "name_en": "Shadmot Dvora",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -15163,8 +15019,8 @@ module.exports = [
   {
     "name": "שומריה",
     "name_en": "Shomria",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מרכז הנגב",
+    "zone_en": "Central Negev",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -15223,8 +15079,8 @@ module.exports = [
   {
     "name": "שושנת העמקים",
     "name_en": "Shoshanat Ha'Amakim",
-    "zone": "שרון",
-    "zone_en": "Sharon",
+    "zone": "חפר",
+    "zone_en": "Hefer",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -15271,8 +15127,8 @@ module.exports = [
   {
     "name": "שיבולים",
     "name_en": "Shibolim",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -15280,18 +15136,6 @@ module.exports = [
     "lng": 34.608144,
     "value": "שיבולים",
     "shelters": 1
-  },
-  {
-    "name": "שיזף - משאבי שדה",
-    "name_en": "Shizaf - Mashabei Sadeh",
-    "zone": "דרום הנגב",
-    "zone_en": "Southern Negev",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 31.00404199999999,
-    "lng": 34.785029,
-    "value": "שיזף - משאבי שדה"
   },
   {
     "name": "שיטים",
@@ -15314,7 +15158,7 @@ module.exports = [
     "time_en": "30 seconds",
     "countdown": 30,
     "lat": 32.9938295,
-    "lng": 35.14856839999999,
+    "lng": 35.1485684,
     "value": "שייח' דנון"
   },
   {
@@ -15524,8 +15368,8 @@ module.exports = [
   {
     "name": "שער הגולן",
     "name_en": "Sha'ar HaGolan",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -15632,8 +15476,8 @@ module.exports = [
   {
     "name": "שקף",
     "name_en": "Shekef",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "יהודה",
+    "zone_en": "Judea",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -15644,8 +15488,8 @@ module.exports = [
   {
     "name": "שרונה",
     "name_en": "Sharona",
-    "zone": "תבור",
-    "zone_en": "Tavor",
+    "zone": "גליל תחתון",
+    "zone_en": "Lower Galilee",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -15655,9 +15499,9 @@ module.exports = [
   },
   {
     "name": "שריגים - ליאון",
-    "name_en": "Srigim",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "name_en": "Srigim (Li-On)",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -15680,8 +15524,8 @@ module.exports = [
   {
     "name": "שרשרת",
     "name_en": "Sharsheret",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -15717,8 +15561,8 @@ module.exports = [
   {
     "name": "תאשור",
     "name_en": "Ta'ashur",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -15729,8 +15573,8 @@ module.exports = [
   {
     "name": "תדהר",
     "name_en": "Tidhar",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -15763,30 +15607,6 @@ module.exports = [
     "value": "תומר"
   },
   {
-    "name": "תחנת רכבת כפר יהושוע",
-    "name_en": "Kfar Yehoshua Train Station",
-    "zone": "הקריות",
-    "zone_en": "Hakrayot",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.681069,
-    "lng": 35.124624,
-    "value": "תחנת רכבת כפר יהושוע"
-  },
-  {
-    "name": "תחנת רכבת ראש העין",
-    "name_en": "Rosh Ha’Ayin Train Station",
-    "zone": "שרון",
-    "zone_en": "Sharon",
-    "time": "דקה",
-    "time_en": "A minute",
-    "countdown": 60,
-    "lat": 32.120865,
-    "lng": 34.934527,
-    "value": "תחנת רכבת ראש העין"
-  },
-  {
     "name": "תימורים",
     "name_en": "Timorim",
     "zone": "לכיש",
@@ -15801,8 +15621,8 @@ module.exports = [
   {
     "name": "תירוש",
     "name_en": "Tirosh",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "בית שמש",
+    "zone_en": "Beit Shemesh",
     "time": "דקה",
     "time_en": "1 minute",
     "countdown": 60,
@@ -15933,8 +15753,8 @@ module.exports = [
   {
     "name": "תל קציר",
     "name_en": "Tel Katzir",
-    "zone": "עמק הירדן",
-    "zone_en": "Jordan Valley",
+    "zone": "קצרין",
+    "zone_en": "Ktazrin",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -15945,8 +15765,8 @@ module.exports = [
   {
     "name": "תל שבע",
     "name_en": "Tel Sheva",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "דרום הנגב",
+    "zone_en": "Southern Negev",
     "time": "דקה",
     "time_en": "A minute",
     "countdown": 60,
@@ -15981,8 +15801,8 @@ module.exports = [
   {
     "name": "תלמי אליהו",
     "name_en": "Talmei Eliyahu",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -16005,8 +15825,8 @@ module.exports = [
   {
     "name": "תלמי ביל'ו",
     "name_en": "Talmei Bilu",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -16042,8 +15862,8 @@ module.exports = [
   {
     "name": "תלמי יפה",
     "name_en": "Talmei Yaffe",
-    "zone": "לכיש",
-    "zone_en": "Lakhish",
+    "zone": "מערב לכיש",
+    "zone_en": "Western Lakhish",
     "time": "30 שניות",
     "time_en": "30 seconds",
     "countdown": 30,
@@ -16127,8 +15947,8 @@ module.exports = [
   {
     "name": "תפרח",
     "name_en": "Tifrach",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "מערב הנגב",
+    "zone_en": "Western Negev",
     "time": "45 שניות",
     "time_en": "45 seconds",
     "countdown": 45,
@@ -16139,8 +15959,8 @@ module.exports = [
   {
     "name": "תקומה",
     "name_en": "Tkuma",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -16151,8 +15971,8 @@ module.exports = [
   {
     "name": "תקומה וחוות יזרעם",
     "name_en": "Tkuma And Havat Izra'am",
-    "zone": "מרכז הנגב",
-    "zone_en": "Central Negev",
+    "zone": "עוטף עזה",
+    "zone_en": "Gaza Containment Zone",
     "time": "15 שניות",
     "time_en": "15 seconds",
     "countdown": 15,
@@ -16173,7 +15993,7 @@ module.exports = [
     "value": "תקוע"
   },
   {
-    "name": "תראבין א-צאנע ופזורה",
+    "name": "תראבין א-צאנע",
     "name_en": "Tirabin Al-Sana And The Bedouin Diaspora",
     "zone": "מרכז הנגב",
     "zone_en": "Central Negev",
@@ -16182,7 +16002,7 @@ module.exports = [
     "countdown": 45,
     "lat": 31.345481,
     "lng": 34.739126,
-    "value": "תראבין א-צאנע ופזורה"
+    "value": "תראבין א-צאנע"
   },
   {
     "name": "תרום",
