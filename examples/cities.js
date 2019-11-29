@@ -2,7 +2,6 @@ var fs = require('fs');
 
 // Replace with require('pikud-haoref-api') if the package resides in node_modules
 var pikudHaoref = require('../index');
-var pikudHaoref = require('../index');
 
 // Pikud Haoref Google Maps API Key
 var options = {
