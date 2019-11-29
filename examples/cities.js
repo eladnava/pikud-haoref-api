@@ -5,7 +5,7 @@ var pikudHaoref = require('../index');
 
 // Pikud Haoref Google Maps API Key
 var options = {
-    googleMapsApiKey: 'AIzaSyBYZ7FFqB5U1mP1nAwJ0iScWU5GjDP1KCM'
+    googleMapsApiKey: 'AIzaSyCSeMZ5AxUgSWHy6EedcgeXjRC2irszdUQ'
 };
 
 // Fetch city metadata from Pikud Haoref's website
