@@ -1,6 +1,6 @@
 {
   "name": "pikud-haoref-api",
-  "version": "2.0.6",
+  "version": "2.0.7",
   "description": "A wrapper library for Pikud Haoref's unofficial rocket alert API (aka Home Front Command).",
   "main": "lib/api.js",
   "scripts": {
