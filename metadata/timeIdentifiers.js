@@ -10,7 +10,7 @@ module.exports = {
         time_en: "15 seconds"
     },
     30: {
-        countdown: 90,
+        countdown: 30,
         time: "30 שניות",
         time_en: "30 seconds"
     },
