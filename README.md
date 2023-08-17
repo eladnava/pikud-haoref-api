@@ -93,6 +93,7 @@ Added in version `3.0.0`:
 * `hostileAircraftIntrusionDrill`
 * `hazardousMaterialsDrill`
 * `terroristInfiltrationDrill`
+* `unknown`
 
 Requirements
 ---
