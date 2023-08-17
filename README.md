@@ -31,7 +31,11 @@ var poll = function () {
 
     // Get currently active alert
     // Example response:
-    // { type: 'missiles', cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'] }
+    // { 
+    //    type: 'missiles', 
+    //    cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'],
+    //    instructions: 'היכנסו למבנה, נעלו את הדלתות וסגרו את החלונות'
+    // }
     pikudHaoref.getActiveAlert(function (err, alert) {
         // Schedule polling in X millis
         setTimeout(poll, interval);
@@ -62,7 +66,8 @@ When there is a missle alert:
 ```
 { 
     type: 'missiles', 
-    cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'] 
+    cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'],
+    instructions: 'היכנסו למבנה, נעלו את הדלתות וסגרו את החלונות'
 }
 ```
 When there is no active alert:
