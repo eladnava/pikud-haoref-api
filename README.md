@@ -29,31 +29,70 @@ var poll = function () {
         proxy: 'http://user:pass@hostname:port/'
     };
 
-    // Get currently active rocket alert cities as an array
-    // Example response: ["תל אביב - מזרח", "חיפה - כרמל ועיר תחתית", "עין גדי"]
-    pikudHaoref.getActiveRocketAlertCities(function (err, alertCities) {
+    // Get currently active alert
+    // Example response:
+    // { type: 'missiles', cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'] }
+    pikudHaoref.getActiveAlert(function (err, alert) {
         // Schedule polling in X millis
         setTimeout(poll, interval);
         
         // Log errors
         if (err) {
-            return console.log('Retrieving active rocket alert cities failed: ', err);
+            return console.log('Retrieving active alert failed: ', err);
         }
-            
-        // Alert cities header
-        console.log('Currently active rocket alert cities:');
-        
-        // Log the alert cities (if any)
-        console.log(alertCities);
-        
+
+        // Alert header
+        console.log('Currently active alert:');
+
+        // Log the alert (if any)
+        console.log(alert);
+
         // Line break for readability
         console.log();
     }, options);
 }
 
-// Start polling for active alert cities
+// Start polling for active alert
 poll();
 ```
+
+Sample Alert Objects
+---
+When there is a missle alert:
+```
+{ 
+    type: 'missiles', 
+    cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'] 
+}
+```
+When there is no active alert:
+```
+{ 
+    type: 'none', 
+    cities: [] 
+}
+```
+
+Alert Types
+---
+
+Added in version `3.0.0`:
+
+* `none`
+* `missiles`
+* `radiologicalEvent`
+* `earthQuake`
+* `tsunami`
+* `hostileAircraftIntrusion`
+* `hazardousMaterials`
+* `terroristInfiltration`
+* `missilesDrill`
+* `earthQuakeDrill`
+* `radiologicalEventDrill`
+* `tsunamiDrill`
+* `hostileAircraftIntrusionDrill`
+* `hazardousMaterialsDrill`
+* `terroristInfiltrationDrill`
 
 Requirements
 ---
