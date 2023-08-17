@@ -2,7 +2,7 @@ pikud-haoref-api
 ===================
 [![npm version](https://badge.fury.io/js/pikud-haoref-api.svg)](https://www.npmjs.com/package/pikud-haoref-api)
 
-A Node.js wrapper library for Pikud Haoref's unofficial rocket alert API. It allows you to easily query for the active rocket alert cities in Israel.
+A Node.js wrapper library for Pikud Haoref's unofficial alerts API. It allows you to easily query for the currently active alerts in Israel.
 
 **Note:** This API is only accessible from within Israel. Either run the script on an Israeli machine, or use a proxy.
 
@@ -14,7 +14,7 @@ First, install the package using npm:
 npm install pikud-haoref-api --save
 ```
 
-Then, use the following code to poll for the currently-active rocket alert cities:
+Then, use the following code to poll for the currently-active alert:
 
 ```js
 var pikudHaoref = require('pikud-haoref-api');

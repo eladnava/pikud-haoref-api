@@ -1,7 +1,7 @@
 {
   "name": "pikud-haoref-api",
   "version": "3.0.0",
-  "description": "A wrapper library for Pikud Haoref's unofficial rocket alert API (aka Home Front Command).",
+  "description": "A wrapper library for Pikud Haoref's unofficial alerts API.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
