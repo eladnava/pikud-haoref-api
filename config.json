@@ -1,0 +1,18 @@
+{
+    "hfc": {
+        "alerts": {
+            "api": "https://www.oref.org.il/WarningMessages/alert/alerts.json"
+        },
+        "website": {
+            "hebUrl": "https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=he",
+            "engUrl": "https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=en"
+        }
+    },
+    "israel": {
+        "center": {
+            "lat": 31.765352,
+            "lng": 34.988067
+        },
+        "radius": 400
+    }
+}

@@ -20,5 +20,9 @@
     "co": "^4.6.0",
     "co-request": "^1.0.0",
     "request": "^2.69.0"
+  },
+  "devDependencies": {
+    "@types/google.maps": "^3.54.3",
+    "@types/node": "^20.8.4"
   }
 }

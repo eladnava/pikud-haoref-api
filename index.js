@@ -1,2 +1,4 @@
-exports.getCityMetadata = require('./lib/cities');
-exports.getActiveAlert = require('./lib/alerts');
+import getCityMetadata from "./lib/cities"
+import getActiveAlert from "./lib/alerts"
+
+export { getActiveAlert, getCityMetadata }

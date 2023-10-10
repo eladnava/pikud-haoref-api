@@ -107,3 +107,11 @@ Requirements
 License
 ---
 Apache 2.0
+
+Config Explanation
+---
+
+- `hfc.alerts.api`: URL to Pikud Haoref's unofficial rocket alert JSON API
+- `hfc.website`: URLs to Pikud Haoref's official homepages in Hebrew and English which contain city metadata
+- `israel.center`: Center of Israel coordinates
+- `israel.radius`: This radius (in KM) should cover Israel from the center point to all borders
