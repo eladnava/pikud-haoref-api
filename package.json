@@ -19,6 +19,13 @@
   "dependencies": {
     "co": "^4.6.0",
     "co-request": "^1.0.0",
+    "pikud-haoref-api": "^3.0.2",
     "request": "^2.69.0"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
