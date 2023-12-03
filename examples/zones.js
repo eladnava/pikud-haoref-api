@@ -1,4 +1,4 @@
-var cities = require('../citiesArchive');
+var cities = require('../cities');
 
 // Zones dictionary
 let zones = {
