@@ -6,8 +6,14 @@ module.exports = {
         },
         // URLs to Pikud Haoref's official homepages in Hebrew and English which contain city metadata
         website: {
-            hebUrl: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=he',
-            engUrl: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=en'
+            // Main cities JSON URL
+            citiesJson: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=he',
+            // Additional language URLs
+            translatedCitiesJson: {
+                en: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=en',
+                ru: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=ru',
+                ar: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=ar'
+            }
         }
     },
     israel: {
