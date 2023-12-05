@@ -1,4 +1,4 @@
-var cities = require('../cities');
+var cities = require('../jsons/cities.json');
 
 // Zones dictionary
 let zones = {
