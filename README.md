@@ -104,6 +104,12 @@ Requirements
 ---
 * Node.js v4.2.x+ for ES6's `for-of` loop support
 
+Special Thanks
+---
+
+* Thanks to  Noam Hashmonai for the Spanish translation
+* Thanks to the developers of the Tzofar app for the map polygon data
+
 License
 ---
 Apache 2.0
