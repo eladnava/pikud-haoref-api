@@ -11,21 +11,21 @@ module.exports = {
         time: "15 שניות",
         time_en: "15 seconds",
         time_ru: "15 секунд",
-        time_ar: "15 ثانية"
+        time_ar: "۱٥ ثانية"
     },
     30: {
         countdown: 30,
         time: "30 שניות",
         time_en: "30 seconds",
         time_ru: "30 секунд",
-        time_ar: "30 ثانية"
+        time_ar: "۳۰ ثانية"
     },
     45: {
         countdown: 45,
         time: "45 שניות",
         time_en: "45 seconds",
         time_ru: "45 секунд",
-        time_ar: "45 ثانية"
+        time_ar: "٤٥ ثانية"
     },
     60: {
         countdown: 60,
@@ -46,6 +46,6 @@ module.exports = {
         time: "3 דקות",
         time_en: "3 minutes",
         time_ru: "3 минуты",
-        time_ar: "3 دقائق"
+        time_ar: "۳ دقائق"
     }
 };
