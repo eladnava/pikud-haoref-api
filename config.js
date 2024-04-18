@@ -8,6 +8,7 @@ module.exports = {
         website: {
             // Main cities JSON URL
             citiesJson: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=he',
+            cityNotesJson: 'https://www.oref.org.il/Shared/Ajax/GetCityNotes.aspx?lang=he&citycode=',
             // Additional language URLs
             translatedCitiesJson: {
                 en: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=en',
