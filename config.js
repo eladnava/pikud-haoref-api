@@ -2,7 +2,11 @@ module.exports = {
     hfc: {
         alerts: {
             // URL to Pikud Haoref's unofficial rocket alert JSON API
-            api: 'https://www.oref.org.il/WarningMessages/alert/alerts.json'
+            api: 'https://www.oref.org.il/warningMessages/alert/Alerts.json'
+        },
+        alertsHistory: {
+            // Additional URL to Pikud Haoref's unofficial rocket alert history JSON API
+            api: 'https://www.oref.org.il/warningMessages/alert/History/AlertsHistory.json'
         },
         // URLs to Pikud Haoref's official homepages in Hebrew and English which contain city metadata
         website: {
