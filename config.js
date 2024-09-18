@@ -11,13 +11,13 @@ module.exports = {
         // URLs to Pikud Haoref's official homepages in Hebrew and English which contain city metadata
         website: {
             // Main cities JSON URL
-            citiesJson: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=he',
-            cityNotesJson: 'https://www.oref.org.il/Shared/Ajax/GetCityNotes.aspx?lang=he&citycode=',
+            citiesJson: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=he',
+            cityNotesJson: 'https://alerts-history.oref.org.il/Shared/Ajax/GetAlarmInstructions.aspx?lang=he&from=1&cityid=',
             // Additional language URLs
             translatedCitiesJson: {
-                en: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=en',
-                ru: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=ru',
-                ar: 'https://www.oref.org.il/Shared/Ajax/GetCitiesMix.aspx?lang=ar'
+                en: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=en',
+                ru: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=ru',
+                ar: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=ar'
             }
         }
     },
