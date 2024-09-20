@@ -8,7 +8,7 @@ module.exports = {
             // Additional URL to Pikud Haoref's unofficial rocket alert history JSON API
             api: 'https://www.oref.org.il/warningMessages/alert/History/AlertsHistory.json'
         },
-        // URLs to Pikud Haoref's official homepages in Hebrew and English which contain city metadata
+        // URLs to Pikud Haoref's JSON files which contain city metadata
         website: {
             // Main cities JSON URL
             citiesJson: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=he',
@@ -18,6 +18,14 @@ module.exports = {
                 en: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=en',
                 ru: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=ru',
                 ar: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=ar'
+            },
+            // HFC segements API JSON files (additional cities not present in GetDistricts.aspx)
+            segmentsJson: 'https://dist-android.meser-hadash.org.il/smart-dist/services/anonymous/segments/android?locale=iw_IL&instance=1544803905',
+            // Additional language URLs
+            translatedSegmentsJson: {
+                en: 'https://dist-android.meser-hadash.org.il/smart-dist/services/anonymous/segments/android?locale=en_US&instance=1544803905',
+                ru: 'https://dist-android.meser-hadash.org.il/smart-dist/services/anonymous/segments/android?locale=ru_RU&instance=1544803905',
+                ar: 'https://dist-android.meser-hadash.org.il/smart-dist/services/anonymous/segments/android?locale=ar_EG&instance=1544803905'
             }
         }
     },
