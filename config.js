@@ -19,6 +19,13 @@ module.exports = {
                 ru: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=ru',
                 ar: 'https://alerts-history.oref.org.il/Shared/Ajax/GetDistricts.aspx?lang=ar'
             },
+            // Main zone names JSON URLs
+            translatedZonesJson: {
+                he: 'https://www.oref.org.il/districts/cities_heb.json',
+                en: 'https://www.oref.org.il/districts/cities_eng.json',
+                ru: 'https://www.oref.org.il/districts/cities_rus.json',
+                ar: 'https://www.oref.org.il/districts/cities_arb.json'
+            },
             // HFC segements API JSON files (additional cities not present in GetDistricts.aspx)
             segmentsJson: 'https://dist-android.meser-hadash.org.il/smart-dist/services/anonymous/segments/android?locale=iw_IL&instance=1544803905',
             // Additional language URLs
