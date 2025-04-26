@@ -81,6 +81,10 @@ When there is no active alert:
 Alert Types
 ---
 
+Added in version `3.0.7`:
+
+* `earlyWarning`
+
 Added in version `3.0.0`:
 
 * `none`
