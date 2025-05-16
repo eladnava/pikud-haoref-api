@@ -1,5 +1,6 @@
 // Replace with require('pikud-haoref-api') if the package resides in node_modules
 var pikudHaoref = require('../index');
+var { HttpsProxyAgent } = require('https-proxy-agent');
 
 // Set polling interval in millis
 var interval = 5000;
@@ -11,7 +12,7 @@ var recentlyAlertedCities = {};
 var poll = function() {
     // Optional Israeli proxy if running outside Israeli borders
     var options = {
-        proxy: 'http://user:pass@hostname:port/'
+        // httpsAgent: new HttpsProxyAgent('http://user:pass@hostname:port/')
     };
 
     // Get currently active alert

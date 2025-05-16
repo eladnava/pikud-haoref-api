@@ -17,8 +17,9 @@
   },
   "homepage": "https://github.com/eladnava/pikud-haoref-api#readme",
   "dependencies": {
+    "axios": "^1.9.0",
     "co": "^4.6.0",
     "co-request": "^1.0.0",
-    "request": "^2.69.0"
+    "https-proxy-agent": "^7.0.6"
   }
 }
