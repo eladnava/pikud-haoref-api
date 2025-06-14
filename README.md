@@ -81,9 +81,13 @@ When there is no active alert:
 Alert Types
 ---
 
+**Breaking change** in version `4.0.0`:
+
+* `newsFlash` - `earlyWarning` has been renamed to `newsFlash` as Pikud Haoref has recently started issuing "safe to leave shelter" alerts using the same category number as early warnings. Check `alert.instructions` to determine the type of action required from civilians.
+
 Added in version `3.0.7`:
 
-* `earlyWarning`
+* ~~`earlyWarning`~~ - no longer in use
 
 Added in version `3.0.0`:
 
