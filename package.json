@@ -1,6 +1,6 @@
 {
   "name": "pikud-haoref-api",
-  "version": "3.0.14",
+  "version": "4.0.0",
   "description": "A wrapper library for Pikud Haoref's unofficial alerts API.",
   "main": "index.js",
   "scripts": {
