@@ -18,6 +18,7 @@ var poll = function() {
     // Get currently active alert
     // Example response:
     // { 
+    //    id: '134168709720000000',
     //    type: 'missiles', 
     //    cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'],
     //    instructions: 'היכנסו למבנה, נעלו את הדלתות וסגרו את החלונות'
