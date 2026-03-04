@@ -85,6 +85,8 @@ When there is no active alert:
 }
 ```
 
+When there are multiple alerts: As a historic design choice, the upstream JSON returned never needed to support more than one alert type at the same time. In practice, when there are multiple alert types at the same time, the response is updated quite frequently, so it is best to poll for new alerts every second or two to monitor for changes and new alert types.
+
 Alert Types
 ---
 
