@@ -65,15 +65,17 @@ Sample Alert Objects
 ---
 When there is a missle alert:
 ```
-{ 
+[{
     id: '134168709720000000',
     type: 'missiles', 
     cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'],
     instructions: 'היכנסו למבנה, נעלו את הדלתות וסגרו את החלונות'
-}
+}]
 ```
 
 **Note:** The `id` is optional and may be ommitted. When present, it can be used for change tracking.
+
+**Note:** There are limitations on simultaneous alerts. See below.
 
 ---
 
@@ -86,7 +88,11 @@ When there is no active alert, an empty array is returned:
 
 When there are multiple alerts:
 
-As a historic design choice, the upstream JSON returned never needed to support more than one alert type at the same time. In practice, when there are multiple alert types at the same time, the response is updated quite frequently, so it is best to poll for new alerts every second or two to monitor for changes and new alert types.
+Currently, only the history API (invoked with `alertsHistoryJson` in the passed options) will ever return more than one alert at the same time.
+
+As for the real-time alerts, when there are multiple alert types at the same time, the response is updated quite frequently, so it is best to poll for new alerts every second or two to monitor for changes and new alert types.
+
+This is a historic design choice, as the upstream Pikud Haoref JSON returned had not needed to support more than one alert type at the same time.
 
 Alert Types
 ---
