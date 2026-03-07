@@ -14,7 +14,7 @@ First, install the package using npm:
 npm install pikud-haoref-api --save
 ```
 
-Then, use the following code to poll for the currently-active alert:
+Then, use the following code to poll for the currently-active alerts:
 
 ```js
 var pikudHaoref = require('pikud-haoref-api');
@@ -29,35 +29,35 @@ var poll = function () {
         proxy: 'http://user:pass@hostname:port/'
     };
 
-    // Get currently active alert
-    // Example response:
-    // { 
-    //    id: '134168709720000000', 
+    // Get currently active alerts
+    // Example response (array):
+    // [{ 
+    //    id: '134168709720000000',
     //    type: 'missiles', 
     //    cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'],
     //    instructions: 'היכנסו למבנה, נעלו את הדלתות וסגרו את החלונות'
-    // }
-    pikudHaoref.getActiveAlert(function (err, alert) {
+    // }]
+    pikudHaoref.getActiveAlerts(function (err, alerts) {
         // Schedule polling in X millis
         setTimeout(poll, interval);
         
         // Log errors
         if (err) {
-            return console.log('Retrieving active alert failed: ', err);
+            return console.log('Retrieving active alerts failed: ', err);
         }
 
         // Alert header
-        console.log('Currently active alert:');
+        console.log('Currently active alerts:');
 
-        // Log the alert (if any)
-        console.log(alert);
+        // Log the alerts (if any)
+        console.log(alerts);
 
         // Line break for readability
         console.log();
     }, options);
 }
 
-// Start polling for active alert
+// Start polling for active alerts
 poll();
 ```
 
@@ -77,12 +77,9 @@ When there is a missle alert:
 
 ---
 
-When there is no active alert:
+When there is no active alert, an empty array is returned:
 ```
-{ 
-    type: 'none', 
-    cities: [] 
-}
+[]
 ```
 
 ---
@@ -93,6 +90,11 @@ As a historic design choice, the upstream JSON returned never needed to support 
 
 Alert Types
 ---
+
+**Breaking changes** in version `5.0.0`:
+
+* `pikudHaoref.getActiveAlert()` - this method has been renamed to `pikudHaoref.getActiveAlerts()` and now returns an array of alerts with potentially different types, as Pikud Haoref's historical alerts JSON may return several new alerts with different types at the same time.
+* `none` -  removed this alert type (an empty array is returned when there are no alerts)
 
 **Breaking change** in version `4.0.0`:
 

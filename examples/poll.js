@@ -5,9 +5,6 @@ var { HttpsProxyAgent } = require('https-proxy-agent');
 // Set polling interval in millis
 var interval = 5000;
 
-// Keep track of recently alerted cities to avoid notifying multiple times for the same alert
-var recentlyAlertedCities = {};
-
 // Define polling function
 var poll = function() {
     // Optional Israeli proxy if running outside Israeli borders
@@ -15,66 +12,33 @@ var poll = function() {
         // httpsAgent: new HttpsProxyAgent('http://user:pass@hostname:port/')
     };
 
-    // Get currently active alert
-    // Example response:
-    // { 
+    // Get currently active alerts
+    // Example response (array):
+    // [{ 
     //    id: '134168709720000000',
     //    type: 'missiles', 
     //    cities: ['תל אביב - מזרח', 'חיפה - כרמל ועיר תחתית', 'עין גדי'],
     //    instructions: 'היכנסו למבנה, נעלו את הדלתות וסגרו את החלונות'
-    // }
-    pikudHaoref.getActiveAlert(function (err, alert) {
+    // }]
+    pikudHaoref.getActiveAlerts(function (err, alerts) {
         // Schedule polling in X millis
         setTimeout(poll, interval);
 
         // Log errors
         if (err) {
-            return console.log('Retrieving active alert failed: ', err);
+            return console.log('Retrieving active alerts failed: ', err);
         }
 
-        // Extract new cities
-        alert.cities = extractNewCities(alert.cities);
+        // Alert header
+        console.log('Currently active alerts:');
 
-        // Print alert
-        if (alert.cities.length > 0) {
-            // Alert header
-            console.log('Currently active alert:');
-
-            // Log the alert (if any)
-            console.log(alert);
-        }
-        else {
-            // No current alert
-            console.log('There is no currently active alert.');
-        }
+        // Log the alerts (if any)
+        console.log(alerts);
 
         // Line break for readability
         console.log();
     }, options);
 }
 
-function extractNewCities(alertCities) {
-    // Result array
-    var newCities = [];
-
-    // Get current unix timstamp
-    var now = Math.floor(Date.now() / 1000);
-
-    // Traverse cities
-    for (var city of alertCities) {
-        // Haven't notified recently?
-        if (!recentlyAlertedCities[city] || recentlyAlertedCities[city] < now - (60 * 3)) {
-            // New city
-            newCities.push(city);
-
-            // Update last alert timestamp for this city
-            recentlyAlertedCities[city] = now;
-        }
-    }
-
-    // Return result
-    return newCities;
-}
-
-// Start polling for active alert
+// Start polling for active alerts
 poll();
