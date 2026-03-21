@@ -13,7 +13,7 @@ let zones = {
 for (var city of cities) {
     // If this is the first time encountering zone, add to list
     if (city.zone_en && !zones[city.zone_en]) {
-        zones[city.zone_en] = { name: city.zone, name_en: city.zone_en, value: city.zone };
+        zones[city.zone] = { name: city.zone, name_en: city.zone_en, value: city.zone };
     }
 }
 
@@ -22,6 +22,11 @@ zones = Object.values(zones);
 
 // Sort by alphabetic hebrew name
 zones = zones.sort(function (a, b) {
+    // Select All should override aphabetical sort
+    if (b.value === 'all') {
+        return 1;
+    }
+
     // Select All should override aphabetical sort
     if (a.value === 'all') {
         return -1;
