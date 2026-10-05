@@ -21,5 +21,13 @@
     "co": "^4.6.0",
     "co-request": "^1.0.0",
     "https-proxy-agent": "^7.0.6"
+  },
+  "overrides": {
+    "axios": {
+      "form-data": "4.0.6"
+    },
+    "request": {
+      "form-data": "4.0.6"
+    }
   }
 }
